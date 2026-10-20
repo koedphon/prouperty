@@ -1,0 +1,58 @@
+{
+  "id": "team_propinvest_thai_01",
+  "name": "PropInvest Real Estate Workspace",
+  "adminId": "usr_guest",
+  "adminEmail": "",
+  "adminName": "ผู้ใช้งานทั่วไป",
+  "googleSheetId": "",
+  "googleSheetUrl": "",
+  "members": [
+    {
+      "id": "usr_mem_01",
+      "name": "สมชาย สายตรวจภาคสนาม",
+      "email": "somchai.scout@propinvest.co",
+      "role": "MEMBER",
+      "status": "ACTIVE",
+      "joinedAt": "01/10/2026",
+      "scansCount": 0
+    },
+    {
+      "id": "usr_mem_02",
+      "name": "กานดา สำรวจที่ดินโซนตะวันออก",
+      "email": "kanda.survey@propinvest.co",
+      "role": "MEMBER",
+      "status": "ACTIVE",
+      "joinedAt": "02/10/2026",
+      "scansCount": 0
+    }
+  ],
+  "billing": {
+    "planTier": "STANDARD",
+    "planName": "Standard Plan",
+    "basePriceThb": 150,
+    "extraSeatPriceThb": 150,
+    "baseQuota": 100,
+    "quotaPerSeat": 100,
+    "currentMemberSeats": 0,
+    "totalMonthlyThb": 150,
+    "currency": "THB",
+    "stripeCustomerId": "",
+    "stripeSubscriptionId": "",
+    "stripeSeatItemId": "",
+    "nextBillingDate": "01/11/2026",
+    "prorationEnabled": true,
+    "canInviteMembers": false,
+    "isUnlimitedVip": false
+  },
+  "quota": {
+    "baseQuota": 100,
+    "seatsQuota": 0,
+    "totalQuota": 100,
+    "usedQuota": 0,
+    "remainingQuota": 100
+  },
+  "activeUserId": "usr_guest",
+  "activeUserRole": "ADMIN",
+  "activeUserName": "ผู้ใช้งานทั่วไป",
+  "activeUserEmail": ""
+}

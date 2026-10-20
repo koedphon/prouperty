@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-base: #FAF8F5;
+    --bg-surface: #FFFFFF;
+    --card-surface: #FFFFFF;
+    --border-subtle: #EAE3D9;
+    --text-primary: #24211D;
+    --text-secondary: #767067;
+    --accent-terracotta: #C86A39;
+    --accent-terracotta-hover: #B85D2E;
+    --accent-sand: #EFE9DF;
+  }
+
+  body {
+    background-color: #FAF8F5;
+    color: #24211D;
+    font-family: 'Plus Jakarta Sans', 'Prompt', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: 'Playfair Display', 'Cormorant Garamond', 'Prompt', Georgia, serif;
+  }
+}
+
+/* Warm Architectural Linen Texture & Subtle Dot Grid */
+.bg-warm-linen {
+  background-color: #FAF8F5;
+  background-image: 
+    radial-gradient(rgba(180, 150, 120, 0.08) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.bg-warm-sand {
+  background-color: #F4EFEB;
+}
+
+.bg-warm-timber {
+  background-color: #2D221B;
+}
+
+/* High-End Architectural Diffusion Shadows (as seen in the reference image) */
+.shadow-luxe-sm {
+  box-shadow: 0 4px 20px -2px rgba(90, 70, 50, 0.05), 0 2px 6px -1px rgba(90, 70, 50, 0.03);
+}
+
+.shadow-luxe {
+  box-shadow: 0 12px 32px -4px rgba(90, 70, 50, 0.07), 0 4px 12px -2px rgba(90, 70, 50, 0.04);
+}
+
+.shadow-luxe-lg {
+  box-shadow: 0 20px 48px -8px rgba(70, 50, 35, 0.09), 0 8px 16px -4px rgba(70, 50, 35, 0.04);
+}
+
+/* Warm Glass Panels */
+.glass-panel-warm {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(226, 218, 207, 0.85);
+  box-shadow: 0 10px 30px -4px rgba(90, 70, 50, 0.06);
+}
+
+.glass-panel-warm-elevated {
+  background: #FFFFFF;
+  border: 1px solid #EAE3D9;
+  box-shadow: 0 16px 40px -6px rgba(70, 50, 35, 0.08);
+}
+
+/* Terracotta Buttons & Accents */
+.btn-terracotta {
+  background-color: #C86A39;
+  color: #FFFFFF;
+  transition: all 0.2s ease-in-out;
+}
+.btn-terracotta:hover {
+  background-color: #B55B2C;
+  box-shadow: 0 6px 20px rgba(200, 106, 57, 0.28);
+}
+
+/* Subtle Warm Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8CFBF;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #BDB2A0;
+}
